@@ -1,0 +1,159 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 913px;
+    width: 411px;
+    background-color: gray;
+}
+
+.status {
+    background-color: black;
+    width: 411px;
+    height: 30px;
+}
+
+.status .icon-right{
+    display: inline-block;
+    float: right;
+    color: white;
+    padding-top: 5px;
+    padding-right: 10px;
+    letter-spacing: 2px;
+}
+
+.search {
+    background-color: #27AE60;
+    width: 411px;
+    height: 72px;
+}
+
+.search .icon-left{
+    float: left;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    color: white;
+}
+
+.search .icon-middle{
+    align-content: center;
+    display: inline-block;
+    width: 307px;
+    height: 35px;
+    margin-top: 22px;
+    margin-left: 20px;
+    padding-right: 20px;
+    color: white;
+    background-color: darkgreen;
+}    
+
+.search-icon{
+    float: left;
+    margin-left: 30px;
+    padding-top: 8px;
+}
+    
+.search-label{
+    margin-left: 20px;
+    font-size: 20px;
+    padding-top: 8px;
+    
+}
+
+.microphone {
+    float: right;
+    padding-top: 8px;
+}
+
+.location {
+    font-family: Roboto, sans sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    
+}
+
+.schedule {} 
+
+.eastbound {}
+    
+
+.individual-route {
+    display: inline-block;
+    width: 411px; 
+    height: 80px;
+    background-color: #156034;
+    border-bottom: .1px, thick, black;
+}
+
+.individual-route:hover {
+    background-color: darkgreen; 
+}
+
+.left {
+   display: inline-block;
+   float: left;   
+   padding: 15px;
+    
+} 
+
+.middle{
+    display: inline-block;
+}
+
+.right {
+    float: right;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.number {
+    width: 50px;
+    height: 50px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0px;
+    padding-top: 25px;
+
+}
+
+.stop, .arriving, .frequency {
+    font-family: Roboto, sans-serif;
+    font-weight: lighter;
+    font-size: 13px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.arrow {
+    color: white;
+    margin-right: 20px;
+    
+}
+
+.navbar {}
+
+
+@media screen and (min-width: 575px) {
+    .container {
+        margin: 2%;
+        width: 80%;
+    }
+};
+

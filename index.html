@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Busy Bus Schedule</title>
+    <link rel="stylesheet" href="CSS/eric_meyer_reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/busy_bus.css">
+
+
+    <!--
+    <script src="script defer src=" https://use.fontawesome.com/releases/v5.1.0/js/all.js " integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9 " crossorigin="anonymous ">
+    </script>"></script> -->
+
+</head>
+
+<body>
+    <nav>
+        <div class="status bar">
+        <ul>
+            <li class="icon-left"></li>
+            <li class="icon-middle"></li>
+            <li class="icon-right">
+            <span class="wifi">
+                  <i class="fas fa-wifi" role="wifi"></i></span>
+            <span class="signal"><i class="fas fa-signal" role="data signal"></i></span>
+                <span class="battery"><i class="fas fa-battery-three-quarters" role="battery"></i></span>
+                <span class="time"><i class="far fa-clock" role="clock"></i></span>
+            </li>
+        </ul>
+            </div>
+        <div class="search bar">
+            <ul>
+                <li class="icon-left">
+                <span class="arrow-left"><i class="fas fa-arrow-left" role="arrow"></i></span>
+                </li>
+                <li class="icon-middle">
+                <span class="search-icon"><i class="fas fa-search" role="search-icon"></i></span>
+                <span class="search-label">Search</span>
+                    <span class="microphone"><i class="fas fa-microphone" role="microphone"></i></span>
+                </li>
+                <li class="icon-right"></li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="location">Washington &amp; State</h1>
+    <section class="schedule">
+        <ul class="eastbound">
+            <li class="individual-route">
+                <ul>
+                    <li class="left">
+                        <h2 class="number">60</h2>
+                    </li>
+                    <li class="middle">
+                        <h3 class="stop">Eastbound -Randolph/Harbor Dr</h3>
+                        <h4 class="arriving">Arriving 5 minutes</h4>
+                        <h4 class="frequency">Every 20 minutes</h4>
+                    </li>
+                    <li class="right">
+                        <span class="arrow"><i class="fas fa-arrow-right" role="arrow"></i></span>
+                    </li>
+                </ul>
+                <li class="individual-route">
+                    <ul>
+                        <li class="left">
+                            <h2 class="number">124</h2>
+                        </li>
+                        <li class="middle">
+                            <h3 class="stop">Eastbound - Navy Pier</h3>
+                            <h4 class="arriving">Arriving in 7 minutes</h4>
+                            <h4 class="frequency">Every 10 minutes</h4>
+                        </li>
+                        <li class="right">
+                            <span class="arrow"><i class="fas fa-arrow-right" role="arrow"></i></span>
+                        </li>
+                    </ul>
+                </li>
+        </ul>
+        <ul class="northbound">
+            <li class="individual-route">
+                <ul>
+                    <li class="left">
+                        <h2 class="number">151</h2>
+                    </li>
+                    <li class="middle">
+                        <h3 class="stop">Northbound - Devon/Clark</h3>
+                        <h4 class="arriving">Arriving in 12 minutes</h4>
+                        <h4 class="frequency">Every 16 minutes</h4>
+                    </li>
+                    <li class="right">
+                        <span class="arrow"><i class="fas fa-arrow-right" role="arrow"></i></span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="southbound">
+            <li class="individual-route">
+                <ul>
+                    <li class="left">
+                        <h2 class="number">J14</h2>
+                    </li>
+                    <li class="middle">
+                        <h3 class="stop">Southbound - 103rd/Stony Island</h3>
+                        <h4 class="arriving">Arriving in 5 minutes</h4>
+                        <h4 class="frequency">Every 20 minutes</h4>
+                    </li>
+                    <li class="right">
+                        <span class="arrow"><i class="fas fa-arrow-right" role="arrow"></i></span>
+                    </li>
+                </ul>
+            </li>
+            <li class="individual-route">
+                <ul>
+                    <li class="left">
+                        <h2 class="number">124</h2>
+                    </li>
+                    <li class="middle">
+                        <h3 class="stop">Southbound - Navy Pier</h3>
+                        <h4 class="arriving">Arriving in 7 minutes</h4>
+                        <h4 class="frequency">Every 10 minutes</h4>
+                    </li>
+                    <li class="right">
+                        <span class="arrow"><i class="fas fa-arrow-right" role="arrow"></i></span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="reroute">
+            <li class="individual-route">
+                <ul>
+                    <li class="left">
+
+
+                        <h2 class="number">6x</h2>
+                    </li>
+                    <li class="middle">
+                        <h3 class="stop">Jackson Park Express</h3>
+                        <h4 class="arriving">Arriving - N/A</h4>
+                        <h4 class="frequency">Resuming - N/A</h4>
+                    </li>
+                    <li class="right">
+                        <span class="arrow"><i class="fas fa-arrow-right" role="arrow"></i></span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="out-of-service">
+            <li class="individual-route">
+                <ul>
+                    <li class="left">
+                        <h2 class="number">4</h2>
+                    </li>
+                    <li class="middle">
+                        <h3 class="stop">Out Of Service - Cottage Grove</h3>
+                        <h4 class="arriving">Arriving - N/A</h4>
+                        <h4 class="frequency">Resumes 12:10am</h4>
+                    </li>
+                    <li class="right">
+                        <span class="arrow"><i class="fas fa-arrow-right" role="arrow"></i></span>
+                    </li>
+                </ul>
+            </li>
+            <li class="individual-route">
+                <ul>
+                    <li class="left">
+                        <h2 class="number">120</h2>
+                    </li>
+                    <li class="middle">
+                        <h3 class="stop">Out Of Service - Madison</h3>
+                        <h4 class="arriving">Arriving - N/A</h4>
+                        <h4 class="frequency">Resumes 12:10am</h4>
+                    </li>
+                    <li class="right">
+                        <span class="arrow"><i class="fas fa-arrow-right" role="arrow"></i></span>
+                    </li>
+                </ul>
+            </li>
+            <li class="individual-route">
+                <ul>
+                    <li class="left">
+                        <h2 class="number">1157</h2>
+                    </li>
+                    <li class="middle">
+                        <h3 class="stop">Out Of Service - Streeterville/Taylor</h3>
+                        <h4 class="arriving">Arriving - N/A</h4>
+                        <h4 class="frequency">Resumes 6:00am</h4>
+                    </li>
+                    <li class="right">
+                        <span class="arrow"><i class="fas fa-arrow-right" role="arrow"></i></span>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <div class="navbar"></div>
+</body>
+
+</html>
